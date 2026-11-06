@@ -18,6 +18,9 @@ logs/
 *.duckdb
 *.duckdb.wal
 
+# Data Files
+data/
+
 # Secrets and OS files
 .env
 .DS_Store
