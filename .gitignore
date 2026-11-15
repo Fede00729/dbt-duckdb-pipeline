@@ -24,3 +24,6 @@ data/
 # Secrets and OS files
 .env
 .DS_Store
+
+# dbt generated files
+.user.yml
