@@ -1,6 +1,6 @@
 models:
   - name: job_postings
-    description: Cleaned postings; nine named columns, scraper error rows removed.
+    description: Cleaned postings; eleven named columns, scraper error rows removed.
     config:
       persist_docs:
         relation: true
@@ -26,6 +26,10 @@ models:
         description: Scrape day.
       - name: search_term
         description: Role the scraper searched for.
+      - name: job_posted_at
+        description: Posting age as text, relative to the scrape day ('10 hours ago').
+      - name: job_salary
+        description: Pay range as scraped text; null on most postings.
 
   - name: jobs_per_month
     description: Monthly posting counts by role.
