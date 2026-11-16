@@ -32,6 +32,10 @@ All models have descriptions, and the key columns have `not_null` / `unique` tes
 
 Built with **dbt v2**, **DuckDB**, **uv**, **GitHub Actions** and **GitHub Releases**.
 
+The lineage from dbt docs, colored by materialization:
+
+![dbt lineage](assets/dag.png)
+
 ## Try it
 
 You only need [DuckDB](https://duckdb.org/). Open it and run:
