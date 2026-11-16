@@ -1,6 +1,10 @@
 # dbt + DuckDB Job Postings Pipeline
 
 [![CI](https://github.com/Fede00729/dbt-duckdb-pipeline/actions/workflows/dbt_build.yml/badge.svg)](https://github.com/Fede00729/dbt-duckdb-pipeline/actions/workflows/dbt_build.yml)
+[![dbt](https://img.shields.io/badge/dbt-v2.0.11-FF694B)](https://www.getdbt.com/)
+[![DuckDB](https://img.shields.io/badge/DuckDB-v2.0.0-FFF000?logo=duckdb&logoColor=black)](https://duckdb.org/)
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![uv](https://img.shields.io/badge/uv-0.12-DE5FE9?logo=uv&logoColor=white)](https://docs.astral.sh/uv/)
 
 ![Pipeline](assets/pipeline.png)
 
