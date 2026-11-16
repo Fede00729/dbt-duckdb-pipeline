@@ -36,6 +36,8 @@ The lineage from dbt docs, colored by materialization:
 
 ![dbt lineage](assets/dag.png)
 
+Full docs (models, columns, tests and lineage): https://fede00729.github.io/dbt-duckdb-pipeline/
+
 ## Try it
 
 You only need [DuckDB](https://duckdb.org/). Open it and run:
@@ -110,7 +112,7 @@ Things that were new to me coming from dbt v1 on a cloud warehouse:
 - [x] Staging view + marts tables, documented and tested
 - [x] Descriptions persisted into DuckDB (`persist_docs`)
 - [x] CI with GitHub Actions, publishing the warehouse to a GitHub Release
-- [ ] Docs site on GitHub Pages
+- [x] Docs site on GitHub Pages
 - [ ] Project 2: the same pipeline on Databricks
 
 ---
